@@ -43,7 +43,21 @@ Comparsion operators
 */
 //Arthimatic operator
 int num1 = 55 ,num2 = 65;
-System.out.print("the value of num1 + num2 is:");
-System.out.print(num1+num2);
+System.out.println("the value of num1 + num2 is:");
+System.out.println(num1+num2);
+System.out.println("the value of num1 - num2 is:");
+System.out.println(num1-num2);
+System.out.println("the value of num1 * num2 is:");
+System.out.println(num1*num2);
+System.out.println("the value of num1 / num2 is:");
+System.out.println(num1/num2);
+System.out.println("the value of num1 % num2 is:");
+System.out.println(num1%num2);
+
+System.out.println(num1++);
+System.out.println(++num1);
+System.out.println(num1--);
+System.out.println(--num1);
+
     }
 }
