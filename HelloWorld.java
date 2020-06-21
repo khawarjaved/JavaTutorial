@@ -43,6 +43,8 @@ Comparsion operators
 */
 //Arthimatic operator
 int num1 = 55 ,num2 = 65;
+//Assignment opertaor
+ num1 += 10;
 System.out.println("the value of num1 + num2 is:");
 System.out.println(num1+num2);
 System.out.println("the value of num1 - num2 is:");
