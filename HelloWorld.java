@@ -31,5 +31,19 @@ System.out.println(u);
 System.out.println(d);
 char grade = 'A';
 System.out.println(grade);
+
+/* Operators in java
+Operand operator Operand = Result
+4           +        4   =  8
+Types of operators in java
+Arthimatic operators
+Assignment operators
+Logical    operators
+Comparsion operators
+*/
+//Arthimatic operator
+int num1 = 55 ,num2 = 65;
+System.out.print("the value of num1 + num2 is:");
+System.out.print(num1+num2);
     }
 }
