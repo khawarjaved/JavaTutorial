@@ -26,6 +26,8 @@ double(8bytes)boolean(1 bit)char (2 bytes)
 2.Non Primitive or Reference Data type.
 */
 byte u = 65;
+double d = 45.86865676d;
 System.out.println(u);
+System.out.println(d);
     }
 }
