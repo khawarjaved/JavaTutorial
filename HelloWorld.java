@@ -5,7 +5,9 @@ public class HelloWorld {
         System.out.println("Hello World...jk khawar");
 //use variable string 
 String name ="Khawar Javed";
+String Channel ="Geo news";
 System.out.println(name);
+System.out.println(name +  " from " + Channel);
 //use variable int , float and blooean type declared 
 int a = 50;
 float b = 47.99f;
