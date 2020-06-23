@@ -53,13 +53,27 @@ System.out.println("the value of num1 * num2 is:");
 System.out.println(num1*num2);
 System.out.println("the value of num1 / num2 is:");
 System.out.println(num1/num2);
-System.out.println("the value of num1 % num2 is:");
+System.out.print("the value of num1 % num2 is:");
 System.out.println(num1%num2);
 
 System.out.println(num1++);
 System.out.println(++num1);
 System.out.println(num1--);
 System.out.println(--num1);
+/*
+Comparison Operators
+1. == :Checks of equality of two values.
+2. != :checks if two values are not equal.
+3. <
+4. >
+5. <=
+6. >=
+
+Logical operators
+1. &&
+2. ||
+3.  !
+*/
 
     }
 }
