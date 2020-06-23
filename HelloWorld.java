@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World...jk khawar");
@@ -73,7 +75,12 @@ Logical operators
 1. &&
 2. ||
 3.  !
-*/
+*/ 
+//Taking user input java
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter input");
+String input = scan.nextLine();
+System.out.println(input);
 
     }
 }
