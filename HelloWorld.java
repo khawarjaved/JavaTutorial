@@ -8,6 +8,8 @@ String name ="Khawar Javed";
 String Channel ="Geo news";
 System.out.println(name);
 System.out.println(name +  " from " + Channel);
+System.out.println(name.contains("Khawar"));
+
 //use variable int , float and blooean type declared 
 int a = 50;
 float b = 47.99f;
