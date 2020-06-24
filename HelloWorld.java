@@ -116,6 +116,7 @@ while(i<50){
     System.out.println(i);
     i += 1;
 }*/
+//for loop
 for (int k=0;k<10;k++){
     System.out.println(k);
 }//java array
@@ -127,10 +128,19 @@ System.out.println(marks[4]);
 System.out.println("this is for each loop");
 for(int value:marks){
     System.out.println(value);
-}
+}//string array
 String [] cars = {"honda","suzuki","yamaha","carola"};
 for(String value:cars){
     System.out.println(value);
     }
+    //try catch
+    String [] car = {"honda","suzuki","yamaha","carola"};
+try{
+    System.out.println(cars[3]);
+}catch(Exception e){
+    System.out.println(e);
+
+}
+System.out.println("masoom");
 }
 }
