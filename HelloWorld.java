@@ -110,6 +110,11 @@ switch(age){
     break;
     default:
     System.out.println("you did not match any cases");
+}//while loop
+int i = 0;
+while(i<50){
+    System.out.println(i);
+    i += 1;
 }
     }
 }
