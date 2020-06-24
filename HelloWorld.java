@@ -120,6 +120,8 @@ for (int k=0;k<10;k++){
     System.out.println(k);
 }//java array
 int [] marks = {1,40,23,12,43};
+marks [4] = 50;// this will update marks
 System.out.println(marks[3]);
+System.out.println(marks[4]);
     }
 }
