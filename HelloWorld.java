@@ -123,5 +123,10 @@ int [] marks = {1,40,23,12,43};
 marks [4] = 50;// this will update marks
 System.out.println(marks[3]);
 System.out.println(marks[4]);
+//for each loop
+System.out.println("this is for each loop");
+for(int value:marks){
+    System.out.println(value);
+}
     }
 }
