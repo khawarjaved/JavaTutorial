@@ -128,5 +128,9 @@ System.out.println("this is for each loop");
 for(int value:marks){
     System.out.println(value);
 }
+String [] cars = {"honda","suzuki","yamaha","carola"};
+for(String value:cars){
+    System.out.println(value);
     }
+}
 }
