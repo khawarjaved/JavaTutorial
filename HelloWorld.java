@@ -111,10 +111,15 @@ switch(age){
     default:
     System.out.println("you did not match any cases");
 }//while loop
-int i = 0;
+/*int i = 0;
 while(i<50){
     System.out.println(i);
     i += 1;
-}
+}*/
+for (int k=0;k<10;k++){
+    System.out.println(k);
+}//java array
+int [] marks = {1,40,23,12,43};
+System.out.println(marks[3]);
     }
 }
