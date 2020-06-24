@@ -87,9 +87,14 @@ int age = scan.nextInt();
 //System.out.println(input);
  
 //if else conditional
-if(age>5){
+ if(age>20) 
+{
+    System.out.println("you are an adult");
+}
+else if(age>5){
     System.out.println("you are not a kid");
-}else{
+}
+else{
     System.out.println("you are  a kid");
 }
     }
