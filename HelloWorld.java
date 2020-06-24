@@ -87,7 +87,7 @@ int age = scan.nextInt();
 //System.out.println(input);
  
 //if else conditional
- if(age>20) 
+ /*if(age>20) 
 {
     System.out.println("you are an adult");
 }
@@ -96,6 +96,20 @@ else if(age>5){
 }
 else{
     System.out.println("you are  a kid");
+}*/
+// switch statement in java
+switch(age){
+    case 20:
+    System.out.println("you are 20 year old");
+    break;
+    case 30:
+    System.out.println("you are 30 year old");
+    break;
+    case 45:
+    System.out.println("you are 45 year old");
+    break;
+    default:
+    System.out.println("you did not match any cases");
 }
     }
 }
