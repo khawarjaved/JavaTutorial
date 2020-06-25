@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
+
 public class HelloWorld {
-    static int sum (int a,int b){
-        return a+b;
-    }
+    //method calling
+    //static int sum (int a,int b){
+       // return a+b;
+   // }
     public static void main(String[] args) {
         System.out.println("Hello World...jk khawar");
 //use variable string 
@@ -121,7 +123,7 @@ while(i<50){
     i += 1;
 }*/
 //for loop
-for (int k=0;k<10;k++){
+/*for (int k=0;k<10;k++){
     System.out.println(k);
 }//java array
 int [] marks = {1,40,23,12,43};
@@ -138,14 +140,52 @@ for(String value:cars){
     System.out.println(value);
     }
     //try catch
-    String [] car = {"honda","suzuki","yamaha","carola"};
+   /* String [] car = {"honda","suzuki","yamaha","carola"};
 try{
     System.out.println(cars[3]);
 }catch(Exception e){
     System.out.println(e);
 
 }
-System.out.println("masoom");
-System.out.println(sum( 6,8));
+System.out.println("masoom");*/
+//System.out.println(sum( 6,8));
+float number_1, number_2;
+System.out.println("Enter first number");
+Scanner scan = new Scanner(System.in);
+number_1 = scan.nextFloat();
+System.out.println("Enter second3 number");
+//Scanner scan2 = new Scanner(System.in);
+number_2 = scan.nextFloat();
+System.out.print("you have entered");
+System.out.print(number_1);
+System.out.print("and");
+System.out.println(number_2);
+String prompt = "Enter 0 for addition, 1 for subtraction, 2 for multiplication, and 3 for division";
+System.out.println(prompt);
+int input = scan.nextInt();
+switch(input){
+    case 0:
+    System.out.println("Adding these number");
+    System.out.print("The result is:");
+    System.out.println(number_1 + number_2);
+    break;
+    case 1:
+    System.out.println("subtraction these number");
+    System.out.print("The result is:");
+    System.out.println(number_1 - number_2);
+    break;
+    case 2:
+    System.out.println("multiplication these number");
+    System.out.print("The result is:");
+    System.out.println(number_1 * number_2);
+    break;
+    case 3:
+    System.out.println("division these number");
+    System.out.print("The result is:");
+    System.out.println(number_1 / number_2);
+    break;
+    default:
+    System.out.println("invalid input");
+}
 }
 }
