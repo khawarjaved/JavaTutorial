@@ -1,22 +1,25 @@
 import java.util.Scanner;
 
 public class HelloWorld {
+    static int sum (int a,int b){
+        return a+b;
+    }
     public static void main(String[] args) {
         System.out.println("Hello World...jk khawar");
 //use variable string 
-String name ="Khawar Javed";
+/*String name ="Khawar Javed";
 String Channel ="Geo news";
 System.out.println(name);
 System.out.println(name +  " from " + Channel);
 System.out.println(name.contains("Khawar"));
-
+*/
 //use variable int , float and blooean type declared 
-int a = 50;
+/*int a = 50;
 float b = 47.99f;
 boolean isAdult = false;
 System.out.println(a);
 System.out.println(b);
-System.out.println(isAdult);
+System.out.println(isAdult);*/
 /*
 Rules of constracting name of variables in java.
 1.Can contain digits,underscore,doller sign,letters.
@@ -31,12 +34,12 @@ are two diffirent variables altogether.
 double(8bytes)boolean(1 bit)char (2 bytes)
 2.Non Primitive or Reference Data type.
 */
-byte u = 65;
+/*byte u = 65;
 double d = 45.86865676d;
 System.out.println(u);
 System.out.println(d);
 char grade = 'A';
-System.out.println(grade);
+System.out.println(grade);*/
 
 /* Operators in java
 Operand operator Operand = Result
@@ -48,7 +51,7 @@ Logical    operators
 Comparsion operators
 */
 //Arthimatic operator
-int num1 = 55 ,num2 = 65;
+/*int num1 = 55 ,num2 = 65;
 //Assignment opertaor
  num1 += 10;
 System.out.println("the value of num1 + num2 is:");
@@ -81,9 +84,9 @@ Logical operators
 3.  !
 */ 
 //Taking user input java
-Scanner scan = new Scanner(System.in);
+/*Scanner scan = new Scanner(System.in);
 System.out.println("Enter your age");
-int age = scan.nextInt();
+int age = scan.nextInt();*/
 //System.out.println(input);
  
 //if else conditional
@@ -98,7 +101,7 @@ else{
     System.out.println("you are  a kid");
 }*/
 // switch statement in java
-switch(age){
+/*switch(age){
     case 20:
     System.out.println("you are 20 year old");
     break;
@@ -110,6 +113,7 @@ switch(age){
     break;
     default:
     System.out.println("you did not match any cases");
+    /*
 }//while loop
 /*int i = 0;
 while(i<50){
@@ -142,5 +146,6 @@ try{
 
 }
 System.out.println("masoom");
+System.out.println(sum( 6,8));
 }
 }
