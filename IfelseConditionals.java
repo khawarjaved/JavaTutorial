@@ -13,7 +13,7 @@ public class IfelseConditionals {
             System.out.println("You are not  kid");
 
         } else {
-            System.out.println("you are a kid");
+            System.out.println("you are a boy");
         }
     }
 }
