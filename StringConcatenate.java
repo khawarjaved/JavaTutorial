@@ -9,5 +9,6 @@ public class StringConcatenate {
         System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
         System.out.println(name + " brothers " + brother);
+        System.out.println(name.contains("kha"));
     }
 }
