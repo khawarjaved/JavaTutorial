@@ -5,7 +5,9 @@ public class StringConcatenate {
         // Using String Concatenate
         String name = "khawar jk";
         String brother = "wajid jk";
-        System.out.println(name);
-        System.out.println(name + " from " + brother);
+        System.out.println(name.length());
+        System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());
+        System.out.println(name + " brothers " + brother);
     }
 }
