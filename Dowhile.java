@@ -1,12 +1,12 @@
 
-public class Loop {
+public class Dowhile {
 
     public static void main(String[] args) {
-        // this code will keep excuting until the condition is true
+        // do while one time run must
         int i = 0;
-        while (i < 100) {
+        do {
             System.out.println(i);
             i += 1;
-        }
+        } while (i > 100);
     }
 }
