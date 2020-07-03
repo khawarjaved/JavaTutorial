@@ -7,5 +7,10 @@ public class Array {
         marks[2] = 80;
         System.out.println(marks[0]);
         System.out.println(marks[2]);
+        // All values print for loop
+        // Classical way to iterate an array
+        for (int i = 0; i < marks.length; i++) {
+            System.out.println(marks[i]);
+        }
     }
 }
