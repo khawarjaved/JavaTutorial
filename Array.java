@@ -13,9 +13,14 @@ public class Array {
             System.out.println(marks[i]);
             System.out.println("this is for each loop");
             // for each loop
-            for (int value : marks) {
-                System.out.println(value);
+            // for (int value : marks) {
+            // System.out.println(value);
+
+            String[] brothers = { "Mohsin jk", "Ahsan jk", "Hasan jk", "Khawar jk", "Wajid jk" };
+            for (String values : brothers) {
+                System.out.println(values);
             }
         }
     }
 }
+// }
