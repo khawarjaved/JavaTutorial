@@ -19,7 +19,7 @@ public class Kaboter {
         int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
-            System.out.println("Kaboter bethna ka time:\nDealine line time 7:30 pm ");
+            System.out.println("Pegions Bazi:\nKaboter bethna ka time:\nDealine line time 7:30 pm ");
             String[] pegions = { "Badel 12:30", "Langri 1:30", "Champion 2:30", "Angraiz 3:30", "Bohchal 4:30",
                     "Golden 5:30", "Bacha 6:30" };
             for (String values : pegions) {
