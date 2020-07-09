@@ -27,32 +27,30 @@ public class Kaboter {
             }
         }
         // avarage code
-        System.out.println("Avarage in all pegions ");
-        int a, b, c, d, e, f, g, sum;
-        float avg;
+        {
+            System.out.println("Subtraction and Average hours in all pegions: ");
+            int a, b, c, d, e, f, g, sum;
+            float avg;
 
-        System.out.print("Enter first kaboter  hours : ");
-        a = reader.nextInt();
-        System.out.print("Enter second kaboter hours : ");
-        b = reader.nextInt();
-        System.out.print("Enter third kaboter hours : ");
-        c = reader.nextInt();
-        System.out.print("Enter four kaboter hours : ");
-        d = reader.nextInt();
-        System.out.print("Enter five kaboter hours : ");
-        e = reader.nextInt();
-        System.out.print("Enter six kaboter hours : ");
-        f = reader.nextInt();
-        System.out.print("Enter seven kaboter hours : ");
-        g = reader.nextInt();
+            System.out.print("Enter first kaboter  hours : ");
+            a = reader.nextInt();
+            System.out.print("Enter second kaboter hours : ");
+            b = reader.nextInt();
+            System.out.print("Enter third kaboter hours : ");
+            c = reader.nextInt();
+            System.out.print("Enter four kaboter hours : ");
+            d = reader.nextInt();
+            System.out.print("Enter five kaboter hours : ");
+            e = reader.nextInt();
+            System.out.print("Enter six kaboter hours : ");
+            f = reader.nextInt();
+            System.out.print("Enter seven kaboter hours : ");
+            g = reader.nextInt();
 
-        /*
-         * Calculate sum and average
-         */
-        sum = a + b + c + d + e + f + g;
-        avg = (float) ((a + b + c + d + e + f + g) / 7);
-        System.out.println("Sum : " + sum + "\nAverage : " + avg);
-
+            sum = (a + b + c + d + e + f + g);
+            avg = (float) ((a + b + c + d + e + f + g) / 7);
+            System.out.println("Sum Pegions hours : " + sum + "\nAverage : " + avg);
+        }
         // avg kbotr
         // System.out.println("How many numbers you want to enter?");
         // Scanner scanner = new Scanner(System.in);
@@ -75,7 +73,7 @@ public class Kaboter {
 
         String Name = reader.nextLine();
 
-        System.out.println("Select a number  (1, 2, 3, 4, 5 , 6, 7): ");
+        System.out.println("Select a pegion number and show name time: (1, 2, 3, 4, 5 , 6, 7): ");
         char String = reader.next().charAt(0);
 
         String result;
