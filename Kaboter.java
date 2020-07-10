@@ -19,7 +19,7 @@ public class Kaboter {
         int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
-            System.out.println("Pegions Bazi:\nKaboter bethna ka time:\nDealine line time 7:30 pm ");
+            System.out.println("Kaboter bethna ka time:\nDealine line time 7:30 pm ");
             String[] pegions = { "Badel 12:30", "Langri 1:30", "Champion 2:30", "Angraiz 3:30", "Bohchal 4:30",
                     "Golden 5:30", "Bacha 6:30" };
             for (String values : pegions) {
@@ -31,7 +31,6 @@ public class Kaboter {
             System.out.println("Subtraction and Average hours in all pegions: ");
             int a, b, c, d, e, f, g, sum;
             float avg;
-
             System.out.print("Enter first kaboter  hours : ");
             a = reader.nextInt();
             System.out.print("Enter second kaboter hours : ");
@@ -47,7 +46,7 @@ public class Kaboter {
             System.out.print("Enter seven kaboter hours : ");
             g = reader.nextInt();
 
-            sum = (a + b + c + d + e + f + g);
+            sum = (a + b + c + d + e + f + g) / 7;
             avg = (float) ((a + b + c + d + e + f + g) / 7);
             System.out.println("Sum Pegions hours : " + sum + "\nAverage : " + avg);
         }

@@ -23,7 +23,6 @@ public class sum {
         }
 
         double average = total / arr.length;
-
         System.out.format("The average is: %.3f", average);
     }
 
