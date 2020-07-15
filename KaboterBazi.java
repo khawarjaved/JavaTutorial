@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Kaboter {
+public class KaboterBazi {
 
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
@@ -8,8 +8,8 @@ public class Kaboter {
         int[] countings = { 1, 2, 3, 4, 5, 6, 7 };
         for (int i = 0; i < countings.length; i++) {
             System.out.println(countings[i]);
-            System.out.println("Chat Name Guddo Mayo: \nPegions Bazi:\nPegion Flying Timing: 5:30 am");
-            String[] kaboters = { "Badel", "Langri", "Champion", "Angraiz", "Bohchal", "Golden", "Bacha" };
+            System.out.println("Chat Name Mehbob Jutt: \nPegions Bazi:\nPegion Flying Timing: 5:30 am");
+            String[] kaboters = { "Cheena", "Lakway wala", "King", "Zeera", "Jonsra", "Tadi", "Lakha" };
             for (String values : kaboters) {
                 System.out.println(values);
             }
@@ -17,21 +17,22 @@ public class Kaboter {
         int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
-            System.out.println("Kaboter bethna ka time:\nDealine line time 7:30 pm ");
-            String[] pegions = { "Badel 12:30", "Langri 1:30", "Champion 2:30", "Angraiz 3:30", "Bohchal 4:30",
-                    "Golden 5:30", "Bacha 6:30" };
+            System.out.println("Chat Name Mehbob Jutt: \nKaboter bethna ka time:\nDealine line time 7:30 pm ");
+            String[] pegions = { "Cheena 12:00", "Lakway wala 1:00", "King 2:50", "Zeera 3:40", "Jonsra 4:10",
+                    "Tadi 5:20", "Lakha 7:20" };
             for (String values : pegions) {
                 System.out.println(values);
+
             }
-        }
-        // Class and funtion calling
-        {
+            // Class and funtion calling
+            {
+                Counte counteObj = new Counte();
+                counteObj.Average();
+
+            }
             Counte counteObj = new Counte();
-            counteObj.Average();
+            counteObj.Select();
 
         }
-        Counte counteObj = new Counte();
-        counteObj.Select();
-
     }
 }
