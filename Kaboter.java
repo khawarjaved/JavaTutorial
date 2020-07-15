@@ -46,10 +46,11 @@ public class Kaboter {
             System.out.print("Enter seven kaboter hours : ");
             g = reader.nextInt();
 
-            sum = (a + b + c + d + e + f + g) / 7;
+            sum = a + b + c + d + e + f + g;
             avg = (float) ((a + b + c + d + e + f + g) / 7);
             System.out.println("Sum Pegions hours : " + sum + "\nAverage : " + avg);
         }
+
         // avg kbotr
         // System.out.println("How many numbers you want to enter?");
         // Scanner scanner = new Scanner(System.in);
