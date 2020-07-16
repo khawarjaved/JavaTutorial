@@ -24,14 +24,15 @@ public class KaboterBazi {
                 System.out.println(values);
 
             }
-            // Class and funtion calling
+            // Class and method calling public method class k object call krna k sath hota
+            // hy.
             {
-                Counte counteObj = new Counte();
-                counteObj.Average();
+                Calculation calculationObj = new Calculation();
+                calculationObj.Average();
 
             }
-            Counte counteObj = new Counte();
-            counteObj.Select();
+            Calculation calculationObj = new Calculation();
+            calculationObj.Select();
 
         }
     }
