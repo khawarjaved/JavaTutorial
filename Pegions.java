@@ -9,7 +9,7 @@ public class Pegions {
     int x = 5;
     int y = 30;
     // Pegions class ka attribute likha hy string or int type ma.
-    String kaboterName = "Golden";
+    String kaboterName = "Golden kaboter";
     String BachaName = "Cup wala";
     int age = 5;
 
