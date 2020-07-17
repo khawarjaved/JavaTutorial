@@ -36,9 +36,10 @@ public class Place {
 
     public void GetBirds() {
         for (int i = 0; i < birds.size(); i++) {
-            System.out.println("Bird name " + (i + 1) + ": " + birds.get(i).BirdName);
-            System.out.println("Bird color " + (i + 1) + ": " + birds.get(i).BirdColor);
-            System.out.println("Bird time " + (i + 1) + ": " + birds.get(i).BirdTime);
+            System.out.println("Bird name " + (i + 1) + ": " + birds.get(i).BirdName + birds.get(i).BirdColor
+                    + birds.get(i).BirdTime);
+            // System.out.println("Bird color " + (i + 1) + ": " + birds.get(i).BirdColor);
+            // System.out.println("Bird time " + (i + 1) + ": " + birds.get(i).BirdTime);
         }
     }
 
