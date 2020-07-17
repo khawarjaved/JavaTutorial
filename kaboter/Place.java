@@ -16,7 +16,7 @@ public class Place {
     }
 
     public void GetPlace() {
-        System.out.println("Place name: " + PlaceName + ", Address: " + Address);
+        System.out.println("Place name: " + PlaceName + ",   Address: " + Address);
     }
 
     public void RegisterBirds() {
@@ -24,7 +24,11 @@ public class Place {
         for (int i = 1; i < 8; i++) {
             System.out.println("Enter bird name " + i + " : ");
             String birdName = scanner.nextLine();
-            Bird objBird = new Bird(birdName, "");
+            System.out.println("Enter bird color " + i + " : ");
+            String birdColor = scanner.nextLine();
+            System.out.println("Enter bird fly time " + i + " : ");
+            String birdTime = scanner.nextLine();
+            Bird objBird = new Bird(birdName, birdColor, birdTime);
             birds.add(objBird);
         }
 
@@ -33,7 +37,18 @@ public class Place {
     public void GetBirds() {
         for (int i = 0; i < birds.size(); i++) {
             System.out.println("Bird name " + (i + 1) + ": " + birds.get(i).BirdName);
+            System.out.println("Bird color " + (i + 1) + ": " + birds.get(i).BirdColor);
+            System.out.println("Bird time " + (i + 1) + ": " + birds.get(i).BirdTime);
         }
-
     }
+
+    /*
+     * public void GetBirdsTime() { for (int j = 0; j < birds.size(); j++) {
+     * System.out.println("Bird time " + (j + 1) + ": " + birds.get(j).BirdTime); }
+     * }
+     * 
+     * public void GetBirdsColor() { for (int k = 0; k < birds.size(); k++) {
+     * System.out.println("Bird time " + (k + 1) + ": " + birds.get(k).BirdTime); }
+     * }
+     */
 }
